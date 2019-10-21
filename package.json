@@ -1,0 +1,26 @@
+{
+  "name": "rtsp",
+  "version": "1.0.0",
+  "description": "RTSP",
+  "authors": [
+    "Samuel Cardoso"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf .build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "request": "^2.88.0",
+    "rtsp-ffmpeg": "0.0.14",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "cross-env": "latest"
+  }
+}
