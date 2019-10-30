@@ -3,7 +3,7 @@ const app = require('express')(),
   io = require('socket.io')(server),
   rtsp = require('rtsp-ffmpeg');
 server.listen(6147);
-var uri = 'rtsp://admin:Entech2018@aiplatesbetim.ddns.net:554/live2.sdp',
+var uri = 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov',
   stream = new rtsp.FFMpeg({
     input: uri // stream uri
     , rate: 30 // output framerate (optional)
